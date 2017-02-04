@@ -7,6 +7,8 @@ public class Main {
 
     USA_Exchanges exchanges = new USA_Exchanges();
     exchanges.add_Exchange_Name("nasdaq");
+        exchanges.add_Exchange_Name("nyse");
+        exchanges.add_Exchange_Name("amex");
         System.out.println(exchanges.exchange_Names);
 
 
