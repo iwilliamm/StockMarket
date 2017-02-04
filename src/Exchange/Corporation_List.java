@@ -1,4 +1,4 @@
-package Exchange.ExchangeList;
+package exchange;
 
 import java.util.ArrayList;
 

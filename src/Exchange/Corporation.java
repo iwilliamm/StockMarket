@@ -1,6 +1,6 @@
-package Exchange.ExchangeList;
+package exchange;
 
-import Exchange.ExchangeList.Stocks.Stock;
+import exchange.stocks.Stock;
 
 /**
  * Created by william on 2/3/17.

@@ -1,4 +1,4 @@
-package Exchange.ExchangeList.Stocks;
+package exchange.stocks;
 
 /**
  * Created by william on 2/3/17.

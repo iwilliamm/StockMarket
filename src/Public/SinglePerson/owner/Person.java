@@ -1,4 +1,4 @@
-package Public.SinglePerson.Owner;
+package Public.SinglePerson.owner;
 
 import java.util.ArrayList;
 

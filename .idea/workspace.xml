@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f549ced-6a5a-40fd-8191-961bcc4a0f2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StockMarket/Exchange/ExchangeList/CorporationList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StockMarket/Exchange/Stock.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StockMarket/Exchange/ExchangeList/USA_Exchanges.class" afterPath="$PROJECT_DIR$/out/production/StockMarket/Exchange/ExchangeList/USA_Exchanges.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StockMarket/Main.class" afterPath="$PROJECT_DIR$/out/production/StockMarket/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/Corporation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/Corporation_List.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/USA_Exchanges.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/stocks/Stock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/stocks/StockBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/stocks/StockType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Public/SinglePerson/owner/Person.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/Corporation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/Corporation_List.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/Stocks/Stock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/Stocks/StockBehavior.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/Stocks/StockType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/USA_Exchanges.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Buisness_Cycles.java" afterPath="$PROJECT_DIR$/src/Analysis/Buisness_Cycles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Disposable_Income.java" afterPath="$PROJECT_DIR$/src/Analysis/Disposable_Income.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/National_Income.java" afterPath="$PROJECT_DIR$/src/Analysis/National_Income.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Net_National_Product.java" afterPath="$PROJECT_DIR$/src/Analysis/Net_National_Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Personal_Income.java" afterPath="$PROJECT_DIR$/src/Analysis/Personal_Income.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Recession.java" afterPath="$PROJECT_DIR$/src/Analysis/Recession.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Results.java" afterPath="$PROJECT_DIR$/src/Analysis/Results.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="StockMarket.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,22 +45,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Corporation_List.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exchange/ExchangeList/Corporation_List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exchange/ExchangeList/Stocks/Stock.java">
+        <entry file="file://$PROJECT_DIR$/src/exchange/stocks/Stock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -55,7 +56,7 @@
         </entry>
       </file>
       <file leaf-file-name="Results.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analysis/Results.java">
+        <entry file="file://$PROJECT_DIR$/src/analysis/Results.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
@@ -65,7 +66,7 @@
         </entry>
       </file>
       <file leaf-file-name="Net_National_Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analysis/Net_National_Product.java">
+        <entry file="file://$PROJECT_DIR$/src/analysis/Net_National_Product.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -74,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regulation.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="regulation.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/regulations/regulation.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -84,8 +85,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Public/SinglePerson/owner/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Personal_Income.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analysis/Personal_Income.java">
+        <entry file="file://$PROJECT_DIR$/src/analysis/Personal_Income.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -95,7 +106,7 @@
         </entry>
       </file>
       <file leaf-file-name="National_Income.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analysis/National_Income.java">
+        <entry file="file://$PROJECT_DIR$/src/analysis/National_Income.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -105,7 +116,7 @@
         </entry>
       </file>
       <file leaf-file-name="Disposable_Income.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analysis/Disposable_Income.java">
+        <entry file="file://$PROJECT_DIR$/src/analysis/Disposable_Income.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -115,7 +126,7 @@
         </entry>
       </file>
       <file leaf-file-name="Buisness_Cycles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analysis/Buisness_Cycles.java">
+        <entry file="file://$PROJECT_DIR$/src/analysis/Buisness_Cycles.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
@@ -125,7 +136,7 @@
         </entry>
       </file>
       <file leaf-file-name="Recession.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analysis/Recession.java">
+        <entry file="file://$PROJECT_DIR$/src/analysis/Recession.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -178,6 +189,8 @@
         <option value="$PROJECT_DIR$/src/Analysis/Net_National_Product.java" />
         <option value="$PROJECT_DIR$/src/regulations/state/federal/industry/regulation.groovy" />
         <option value="$PROJECT_DIR$/src/regulations/regulation.groovy" />
+        <option value="$PROJECT_DIR$/src/Public/SinglePerson/Person.java" />
+        <option value="$PROJECT_DIR$/src/Public/SinglePerson/owner/Person.java" />
       </list>
     </option>
   </component>
@@ -234,6 +247,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="StockMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="owner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exchange" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -675,16 +756,16 @@
       <option name="presentableId" value="Default" />
       <updated>1484252449168</updated>
       <workItem from="1484252454587" duration="204000" />
-      <workItem from="1486177162953" duration="6202000" />
+      <workItem from="1486177162953" duration="6527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6406000" />
+    <option name="totallyTimeSpent" value="6731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="748" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -694,7 +775,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -763,19 +844,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exchange/ExchangeList/USA_Exchanges.java">
+    <entry file="file://$PROJECT_DIR$/src/exchange/USA_Exchanges.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exchange/ExchangeList/Stocks/StockBehavior.java">
+    <entry file="file://$PROJECT_DIR$/src/exchange/stocks/StockBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
@@ -783,7 +864,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exchange/ExchangeList/Stocks/StockType.java">
+    <entry file="file://$PROJECT_DIR$/src/exchange/stocks/StockType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
@@ -793,18 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exchange/ExchangeList/Corporation.java">
+    <entry file="file://$PROJECT_DIR$/src/exchange/Corporation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Public/SinglePerson/Owner/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -817,19 +890,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exchange/ExchangeList/Corporation_List.java">
+    <entry file="file://$PROJECT_DIR$/src/exchange/Corporation_List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exchange/ExchangeList/Stocks/Stock.java">
+    <entry file="file://$PROJECT_DIR$/src/exchange/stocks/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -837,7 +910,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analysis/Disposable_Income.java">
+    <entry file="file://$PROJECT_DIR$/src/analysis/Disposable_Income.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -845,7 +918,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analysis/Buisness_Cycles.java">
+    <entry file="file://$PROJECT_DIR$/src/analysis/Buisness_Cycles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
@@ -853,7 +926,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analysis/National_Income.java">
+    <entry file="file://$PROJECT_DIR$/src/analysis/National_Income.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -861,7 +934,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analysis/Personal_Income.java">
+    <entry file="file://$PROJECT_DIR$/src/analysis/Personal_Income.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -869,7 +942,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analysis/Recession.java">
+    <entry file="file://$PROJECT_DIR$/src/analysis/Recession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -877,7 +950,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analysis/Results.java">
+    <entry file="file://$PROJECT_DIR$/src/analysis/Results.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
@@ -885,7 +958,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analysis/Net_National_Product.java">
+    <entry file="file://$PROJECT_DIR$/src/analysis/Net_National_Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -897,6 +970,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Public/SinglePerson/owner/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>

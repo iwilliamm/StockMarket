@@ -1,7 +1,5 @@
 
-import Exchange.ExchangeList.USA_Exchanges;
-import java.util.*;
-import java.io.*;
+import exchange.USA_Exchanges;
 
 public class Main {
 

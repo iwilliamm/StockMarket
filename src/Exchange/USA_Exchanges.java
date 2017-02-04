@@ -1,7 +1,6 @@
-package Exchange.ExchangeList;
+package exchange;
 
 import java.util.*;
-import java.io.*;
 
 /**
  * Created by william on 2/3/17.
