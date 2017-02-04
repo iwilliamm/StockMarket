@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f549ced-6a5a-40fd-8191-961bcc4a0f2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/Corporation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/Corporation_List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/USA_Exchanges.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/stocks/Stock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/stocks/StockBehavior.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exchange/stocks/StockType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Public/SinglePerson/owner/Person.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/Corporation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/Corporation_List.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/Stocks/Stock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/Stocks/StockBehavior.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/Stocks/StockType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Exchange/ExchangeList/USA_Exchanges.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Buisness_Cycles.java" afterPath="$PROJECT_DIR$/src/Analysis/Buisness_Cycles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Disposable_Income.java" afterPath="$PROJECT_DIR$/src/Analysis/Disposable_Income.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/National_Income.java" afterPath="$PROJECT_DIR$/src/Analysis/National_Income.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Net_National_Product.java" afterPath="$PROJECT_DIR$/src/Analysis/Net_National_Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Personal_Income.java" afterPath="$PROJECT_DIR$/src/Analysis/Personal_Income.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Recession.java" afterPath="$PROJECT_DIR$/src/Analysis/Recession.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Analysis/Results.java" afterPath="$PROJECT_DIR$/src/Analysis/Results.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-    </list>
+    <list default="true" id="0f549ced-6a5a-40fd-8191-961bcc4a0f2b" name="Default" comment="" />
     <ignored path="StockMarket.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -756,12 +734,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484252449168</updated>
       <workItem from="1484252454587" duration="204000" />
-      <workItem from="1486177162953" duration="6527000" />
+      <workItem from="1486177162953" duration="6568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6731000" />
+    <option name="totallyTimeSpent" value="6772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="748" extended-state="0" />
@@ -775,7 +753,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
